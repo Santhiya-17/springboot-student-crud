@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Registration</title>
+  <link rel="stylesheet" href="style.css" />
+ 
+</head>
+<body>
+  <h1>Student Registration</h1>
+
+  <form id="studentForm">
+    <input type="number" id="id" placeholder="ID" required />
+    <input type="text" id="name" placeholder="Name" required />
+    <input type="text" id="rollNumber" placeholder="Roll Number" required />
+    <input type="text" id="mobile" placeholder="Mobile Number" required />
+    <input type="text" id="department" placeholder="Department" required />
+    <button type="submit">Add Student</button>
+  </form>
+
+  <h2>Student List</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Roll No</th>
+        <th>Mobile</th>
+        <th>Department</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody id="studentTableBody">
+      Students will appear here 
+    </tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html> 
+
+
+ 
